@@ -11,7 +11,7 @@
 
   will ignore anything else out that doesn't match
 */
-const REGULAR_WORDS_AND_CONTRACTIONS = /\w+('\w+)?/g;
+const REGULAR_WORDS_AND_CONTRACTIONS = /\w+([a-zA-Z0-9']\w+)?/g;
 
 
 export const countWords = (sentence) => {
